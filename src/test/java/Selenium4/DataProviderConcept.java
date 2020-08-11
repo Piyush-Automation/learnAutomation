@@ -51,7 +51,7 @@ WebDriver driver;
 		WebElement address2 = driver.findElement(By.id("permanentAddress"));
 		address2.clear();
 		address2.sendKeys(add2);
-		
+		System.out.println("This is for git upload testing");
 	
 		
 		Thread.sleep(3000);
